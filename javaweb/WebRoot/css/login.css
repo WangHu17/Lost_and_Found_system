@@ -1,0 +1,109 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+i,span{
+	display: inline-block;
+}
+.top{
+	width: 100%;
+	height: 32px;
+	background: black;
+	line-height: 32px;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.help{
+	font-size: 12px;
+	position: absolute;	
+	right: 70px;
+}
+
+.help_icon{
+	width: 15px;
+	height: 15px;
+	background: url('../icon/help.png') no-repeat 0 0;
+	background-size: 100% 100%;
+	position: absolute;
+	right: 100px;
+	top: 8px;
+}
+.title{
+	width: 100%;
+	height: 85px;
+	background-color: #FDFDFD;
+	text-align: center;
+	line-height: 115px;
+}
+.title span{
+	font-size: 34px;
+	margin-right: 20px;
+}
+.Lost{
+	color: #FF4C4C;
+	cursor: default;
+}
+.and{
+	color: gray;
+	cursor: default;
+}
+.Found{
+	color: #0099E5;
+	cursor: default;
+}
+.content{
+	width: 100%;
+	height: 520px;
+	background-color: #060E56;
+}
+.login_content{
+	width: 470px;
+	height: 370px;
+	background-color: #FFFFFF;
+	position: absolute;
+	left: 50%;
+	top: 21%;
+	margin-left: -235px;
+	overflow: hidden;
+}
+.login_type{
+	font-size: 24px;
+	margin-left: 38%;
+	margin-top: 60px;
+}
+.person_box{
+	width: 82%;
+	height: 30px;
+	margin-left: 8%;
+	border: 1px solid black;
+	margin-top: 30px;
+	padding-left: 9px;
+}
+.pwd_box{
+	width: 82%;
+	height: 30px;
+	outline: none;
+	margin-left: 8%;
+	border: 1px solid #FF4C4C;
+	margin-top: 18px;
+	padding-left: 9px;
+}
+.login_btn{
+	width: 84%;
+	height: 30px;
+	background-color: #033B79;
+	text-align: center;
+	line-height: 30px;
+	border: none;
+	color: white;
+	margin-left: 8%;
+	border-radius: 2px;
+	margin-top: 40px;
+	cursor: pointer;
+}

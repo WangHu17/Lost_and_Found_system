@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>Loginservlet</servlet-name>
+		<servlet-class>login.Loginservlet</servlet-class>
+	</servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>lost_li</servlet-name>
+    <servlet-class>login.lost_li</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>delete_li</servlet-name>
+    <servlet-class>login.delete_li</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>insert_li</servlet-name>
+    <servlet-class>login.insert_li</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>insert_to_found</servlet-name>
+    <servlet-class>login.insert_to_found</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>found_li</servlet-name>
+    <servlet-class>login.found_li</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>delete_lost_li</servlet-name>
+    <servlet-class>login.delete_lost_li</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>search_lost_li</servlet-name>
+    <servlet-class>login.search_lost_li</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>delete_found_li</servlet-name>
+    <servlet-class>login.delete_found_li</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>change_lost_li</servlet-name>
+    <servlet-class>login.change_lost_li</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+	
+	<servlet-mapping>
+		<servlet-name>Loginservlet</servlet-name>
+  		<url-pattern>/Loginservlet</url-pattern>
+	</servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>lost_li</servlet-name>
+    <url-pattern>/lost_li</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>delete_li</servlet-name>
+    <url-pattern>/delete_li</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>insert_li</servlet-name>
+    <url-pattern>/insert_li</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>insert_to_found</servlet-name>
+    <url-pattern>/insert_to_found</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>found_li</servlet-name>
+    <url-pattern>/found_li</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>delete_lost_li</servlet-name>
+    <url-pattern>/delete_lost_li</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>search_lost_li</servlet-name>
+    <url-pattern>/search_lost_li</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>delete_found_li</servlet-name>
+    <url-pattern>/delete_found_li</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>change_lost_li</servlet-name>
+    <url-pattern>/change_lost_li</url-pattern>
+  </servlet-mapping>
+	
+	
+	
+	
+	
+  <filter>
+  	<filter-name>CharactorFilter</filter-name>
+  	<filter-class>login.CharactorFilter</filter-class>
+  	<init-param>
+  		<param-name>encoding</param-name>
+  		<param-value>utf-8</param-value>
+  	</init-param>
+  </filter>
+  
+  <filter-mapping>
+  	<filter-name>CharactorFilter</filter-name>
+  	<url-pattern>/*</url-pattern>
+  </filter-mapping>
+	<welcome-file-list>
+	    <welcome-file>login.jsp</welcome-file>
+	 </welcome-file-list>
+</web-app>

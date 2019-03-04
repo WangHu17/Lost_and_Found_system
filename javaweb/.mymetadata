@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="SQL"
+  id="myeclipse.1543407859900"
+  context-root="/SQL"
+  j2ee-spec="5.0"
+  archive="SQL.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
