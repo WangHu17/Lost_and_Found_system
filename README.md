@@ -5,7 +5,7 @@
 - 浏览器：Chrome
 - 服务器：Wampserver64
 # 技术栈
-java、sql、jsp、html、css、JavaScript、jQuery
+java、sql、jsp、html、css、JavaScript、jQuery、ajax
 ## 一、登陆界面
 ![image](https://user-images.githubusercontent.com/39235304/124358515-397fb880-dc53-11eb-9a38-4373b7cd86f6.png)
 ## 二、首页（待领取页面）
